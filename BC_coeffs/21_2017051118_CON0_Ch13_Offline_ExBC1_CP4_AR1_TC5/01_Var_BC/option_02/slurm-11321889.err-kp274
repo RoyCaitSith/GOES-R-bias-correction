@@ -1,0 +1,535 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) chpc/1.0
++ GSIPROC=48
++ ARCH=LINUX
++ ANAL_TIME=2017051200
++ DOMAIN_NAME=d01
+++ echo 2017051200
+++ cut -c1-4
++ YY=2017
+++ echo 2017051200
+++ cut -c5-6
++ MM=05
+++ echo 2017051200
+++ cut -c7-8
++ DD=12
+++ echo 2017051200
+++ cut -c9-10
++ HH=00
++ DATA_DIR=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC
++ OBS_ROOT=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs
++ PREPBUFR=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.prepbufr
++ BK_ROOT=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/bkg
++ BK_FILE=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/bkg/wrfout_d01_2017-05-12_00:00:00
++ WRFINPUT_ROOT=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/wrfinput
++ ENS_ROOT=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/gfsens
++ OPTION_ROOT=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/option_02
++ GSI_ROOT=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3
++ GSI_EXE=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/option_02/gsi.x
++ FIX_ROOT=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix
++ CRTM_ROOT=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0
++ USH_ROOT=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/ush
++ GSI_NAMELIST=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/option_02/comgsi_namelist.sh
++ JOB_DIR=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200
++ RUN_NAME=case_d01
++ WORK_ROOT=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/case_d01
++ if_hybrid=Yes
++ if_4DEnVar=No
++ if_observer=No
++ if_nemsio=No
++ if_oneob=No
++ bk_core=ARW
++ bkcv_option=GLOBAL
++ if_clean=no
++ '[' No = Yes ']'
++ if_oneobtest=.false.
++ '[' Yes = Yes ']'
+++ echo 2017051200
+++ cut -c1-8
++ PDYa=20170512
+++ echo 2017051200
+++ cut -c9-10
++ cyca=00
+++ date -u -d '20170512 00 -6 hour' +%Y%m%d%H
++ gdate=2017051118
+++ echo 2017051118
+++ cut -c9-10
++ gHH=18
+++ date -u -d '20170512 00 -1 hour' +%Y-%m-%d_%H:%M:%S
++ datem1=2017-05-11_23:00:00
+++ date -u -d '20170512 00 1 hour' +%Y-%m-%d_%H:%M:%S
++ datep1=2017-05-12_01:00:00
++ '[' No = Yes ']'
++ if_gfs_nemsio=.false.
++ ENSEMBLE_FILE_mem=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/gfsens/sfg_2017051118_fhr06s_mem
++ '[' No = Yes ']'
++ no_member=20
++ BK_FILE_mem=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/bkg/wrfarw.mem
++ BYTE_ORDER=Big_Endian
++ case $ARCH in
++ '[' 48 = 1 ']'
++ RUN_COMMAND='mpirun -genv OMP_NUM_THREADS=1 -np 48 '
++ '[' '!' 2017051200 ']'
++ '[' '!' /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/case_d01 ']'
++ '[' '!' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/bkg/wrfout_d01_2017-05-12_00:00:00 ']'
++ '[' '!' /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs ']'
++ '[' '!' -d /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs ']'
++ '[' '!' /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix ']'
++ '[' '!' -d /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix ']'
++ '[' '!' /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0 ']'
++ '[' '!' -d /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0 ']'
++ '[' '!' -x /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/option_02/gsi.x ']'
++ '[' -z 48 ']'
++ workdir=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/case_d01
++ echo ' Create working directory:' /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/case_d01
++ '[' -d /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/case_d01 ']'
++ mkdir -p /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/case_d01
++ cd /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/case_d01
++ echo ' Copy GSI executable, background file, and link observation bufr to working directory'
++ cp /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/option_02/gsi.x gsi.x
++ cp /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/bkg/wrfout_d01_2017-05-12_00:00:00 ./wrf_inout
++ '[' No = Yes ']'
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.prepbufr ./prepbufr
++ srcobsfile[1]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.satwnd.tm00.bufr_d
++ gsiobsfile[1]=satwnd
++ srcobsfile[2]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.1bamua.tm00.bufr_d
++ gsiobsfile[2]=amsuabufr
++ srcobsfile[3]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.1bhrs4.tm00.bufr_d
++ gsiobsfile[3]=hirs4bufr
++ srcobsfile[4]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.1bmhs.tm00.bufr_d
++ gsiobsfile[4]=mhsbufr
++ srcobsfile[5]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.1bamub.tm00.bufr_d
++ gsiobsfile[5]=amsubbufr
++ srcobsfile[6]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.ssmisu.tm00.bufr_d
++ gsiobsfile[6]=ssmirrbufr
++ srcobsfile[7]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.airsev.tm00.bufr_d
++ gsiobsfile[7]=airsbufr
++ srcobsfile[8]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.sevcsr.tm00.bufr_d
++ gsiobsfile[8]=seviribufr
++ srcobsfile[9]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.iasidb.tm00.bufr_d
++ gsiobsfile[9]=iasibufr
++ srcobsfile[10]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.gpsro.tm00.bufr_d
++ gsiobsfile[10]=gpsrobufr
++ srcobsfile[11]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.amsr2.tm00.bufr_d
++ gsiobsfile[11]=amsrebufr
++ srcobsfile[12]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.atms.tm00.bufr_d
++ gsiobsfile[12]=atmsbufr
++ srcobsfile[13]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.geoimr.tm00.bufr_d
++ gsiobsfile[13]=gimgrbufr
++ srcobsfile[14]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.gome.tm00.bufr_d
++ gsiobsfile[14]=gomebufr
++ srcobsfile[15]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.omi.tm00.bufr_d
++ gsiobsfile[15]=omibufr
++ srcobsfile[16]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.osbuv8.tm00.bufr_d
++ gsiobsfile[16]=sbuvbufr
++ srcobsfile[17]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.eshrs3.tm00.bufr_d
++ gsiobsfile[17]=hirs3bufrears
++ srcobsfile[18]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.esamua.tm00.bufr_d
++ gsiobsfile[18]=amsuabufrears
++ srcobsfile[19]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.esmhs.tm00.bufr_d
++ gsiobsfile[19]=mhsbufrears
++ srcobsfile[20]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/rap.t00z.nexrad.tm00.bufr_d
++ gsiobsfile[20]=l2rwbufr
++ srcobsfile[21]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/rap.t00z.lgycld.tm00.bufr_d
++ gsiobsfile[21]=larcglb
++ srcobsfile[22]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.glm.tm00.bufr_d
++ gsiobsfile[22]=glmbufr
++ srcobsfile[23]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.gmi.tm00.bufr_d
++ gsiobsfile[23]=gmibufr
++ srcobsfile[24]=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.goesrabi.tm00.bufr_d
++ gsiobsfile[24]=abibufr
++ ii=1
++ [[ 1 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.satwnd.tm00.bufr_d ']'
++ ((  ii = 1 + 1  ))
++ [[ 2 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.1bamua.tm00.bufr_d ']'
++ ((  ii = 2 + 1  ))
++ [[ 3 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.1bhrs4.tm00.bufr_d ']'
++ ((  ii = 3 + 1  ))
++ [[ 4 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.1bmhs.tm00.bufr_d ']'
++ ((  ii = 4 + 1  ))
++ [[ 5 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.1bamub.tm00.bufr_d ']'
++ ((  ii = 5 + 1  ))
++ [[ 6 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.ssmisu.tm00.bufr_d ']'
++ ((  ii = 6 + 1  ))
++ [[ 7 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.airsev.tm00.bufr_d ']'
++ ((  ii = 7 + 1  ))
++ [[ 8 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.sevcsr.tm00.bufr_d ']'
++ ((  ii = 8 + 1  ))
++ [[ 9 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.iasidb.tm00.bufr_d ']'
++ ((  ii = 9 + 1  ))
++ [[ 10 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.gpsro.tm00.bufr_d ']'
++ ((  ii = 10 + 1  ))
++ [[ 11 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.amsr2.tm00.bufr_d ']'
++ ((  ii = 11 + 1  ))
++ [[ 12 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.atms.tm00.bufr_d ']'
++ ((  ii = 12 + 1  ))
++ [[ 13 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.geoimr.tm00.bufr_d ']'
++ ((  ii = 13 + 1  ))
++ [[ 14 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.gome.tm00.bufr_d ']'
++ ((  ii = 14 + 1  ))
++ [[ 15 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.omi.tm00.bufr_d ']'
++ ((  ii = 15 + 1  ))
++ [[ 16 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.osbuv8.tm00.bufr_d ']'
++ ((  ii = 16 + 1  ))
++ [[ 17 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.eshrs3.tm00.bufr_d ']'
++ ((  ii = 17 + 1  ))
++ [[ 18 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.esamua.tm00.bufr_d ']'
++ ((  ii = 18 + 1  ))
++ [[ 19 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.esmhs.tm00.bufr_d ']'
++ ((  ii = 19 + 1  ))
++ [[ 20 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/rap.t00z.nexrad.tm00.bufr_d ']'
++ ((  ii = 20 + 1  ))
++ [[ 21 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/rap.t00z.lgycld.tm00.bufr_d ']'
++ ((  ii = 21 + 1  ))
++ [[ 22 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.glm.tm00.bufr_d ']'
++ ((  ii = 22 + 1  ))
++ [[ 23 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.gmi.tm00.bufr_d ']'
++ ((  ii = 23 + 1  ))
++ [[ 24 -le 24 ]]
++ '[' -r /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.goesrabi.tm00.bufr_d ']'
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.goesrabi.tm00.bufr_d abibufr
++ echo 'link source obs file /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.goesrabi.tm00.bufr_d'
++ ((  ii = 24 + 1  ))
++ [[ 25 -le 24 ]]
++ ifhyb=.false.
++ '[' Yes = Yes ']'
++ ls '/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/gfsens/sfg_2017051118_fhr06s_mem*'
+ls: cannot access '/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/gfsens/sfg_2017051118_fhr06s_mem*': No such file or directory
++ '[' No = Yes ']'
+++ more filelist02
+++ wc -l
++ nummem=3
++ nummem=0
++ [[ 0 -ge 5 ]]
++ if4d=.false.
++ [[ .false. = .true. ]]
++ echo ' Copy fixed files and link CRTM coefficient files to working directory'
++ '[' GLOBAL = GLOBAL ']'
++ echo ' Use global background error covariance'
++ BERROR=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/Big_Endian/nam_glb_berror.f77.gcv
++ OBERROR=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/prepobs_errtable.global
++ '[' ARW = NMM ']'
++ '[' ARW = ARW ']'
++ ANAVINFO=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/option_02/anavinfo_arw_netcdf_glbe
++ '[' ARW = NMMB ']'
++ SATANGL=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/global_satangbias.txt
++ SATINFO=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/option_02/global_satinfo.txt
++ CONVINFO=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/global_convinfo.txt
++ OZINFO=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/global_ozinfo.txt
++ PCPINFO=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/global_pcpinfo.txt
++ LIGHTINFO=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/global_lightinfo.txt
++ CLOUDYINFO=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/option_02/cloudy_radiance_info.txt
++ cp /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/option_02/anavinfo_arw_netcdf_glbe anavinfo
++ cp /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/Big_Endian/nam_glb_berror.f77.gcv berror_stats
++ cp /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/global_satangbias.txt satbias_angle
++ cp /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/option_02/global_satinfo.txt satinfo
++ cp /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/global_convinfo.txt convinfo
++ cp /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/global_ozinfo.txt ozinfo
++ cp /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/global_pcpinfo.txt pcpinfo
++ cp /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/global_lightinfo.txt lightinfo
++ cp /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/prepobs_errtable.global errtable
++ cp /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/option_02/cloudy_radiance_info.txt cloudy_radiance_info.txt
++ CRTM_ROOT_ORDER=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian
++ emiscoef_IRwater=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/Nalli.IRwater.EmisCoeff.bin
++ emiscoef_IRice=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/NPOESS.IRice.EmisCoeff.bin
++ emiscoef_IRland=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/NPOESS.IRland.EmisCoeff.bin
++ emiscoef_IRsnow=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/NPOESS.IRsnow.EmisCoeff.bin
++ emiscoef_VISice=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/NPOESS.VISice.EmisCoeff.bin
++ emiscoef_VISland=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/NPOESS.VISland.EmisCoeff.bin
++ emiscoef_VISsnow=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/NPOESS.VISsnow.EmisCoeff.bin
++ emiscoef_VISwater=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/NPOESS.VISwater.EmisCoeff.bin
++ emiscoef_MWwater=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/FASTEM6.MWwater.EmisCoeff.bin
++ aercoef=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/AerosolCoeff.bin
++ cldcoef=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/CloudCoeff.bin
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/Nalli.IRwater.EmisCoeff.bin ./Nalli.IRwater.EmisCoeff.bin
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/NPOESS.IRice.EmisCoeff.bin ./NPOESS.IRice.EmisCoeff.bin
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/NPOESS.IRsnow.EmisCoeff.bin ./NPOESS.IRsnow.EmisCoeff.bin
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/NPOESS.IRland.EmisCoeff.bin ./NPOESS.IRland.EmisCoeff.bin
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/NPOESS.VISice.EmisCoeff.bin ./NPOESS.VISice.EmisCoeff.bin
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/NPOESS.VISland.EmisCoeff.bin ./NPOESS.VISland.EmisCoeff.bin
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/NPOESS.VISsnow.EmisCoeff.bin ./NPOESS.VISsnow.EmisCoeff.bin
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/NPOESS.VISwater.EmisCoeff.bin ./NPOESS.VISwater.EmisCoeff.bin
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/FASTEM6.MWwater.EmisCoeff.bin ./FASTEM6.MWwater.EmisCoeff.bin
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/AerosolCoeff.bin ./AerosolCoeff.bin
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/CloudCoeff.bin ./CloudCoeff.bin
+++ awk '{if($1!~"!"){print $1}}' ./satinfo
+++ sort
+++ uniq
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/abi_g16.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/abi_g16.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/ahi_himawari8.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/ahi_himawari8.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/airs_aqua.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/airs_aqua.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/amsr2_gcom-w1.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/amsr2_gcom-w1.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/amsre_aqua.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/amsre_aqua.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/amsua_aqua.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/amsua_aqua.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/amsua_metop-a.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/amsua_metop-a.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/amsua_metop-b.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/amsua_metop-b.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/amsua_n15.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/amsua_n15.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/amsua_n18.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/amsua_n18.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/amsua_n19.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/amsua_n19.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/amsub_n17.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/amsub_n17.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/atms_n20.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/atms_n20.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/atms_npp.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/atms_npp.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/avhrr3_metop-a.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/avhrr3_metop-a.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/avhrr3_metop-b.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/avhrr3_metop-b.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/avhrr3_n18.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/avhrr3_n18.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/avhrr3_n19.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/avhrr3_n19.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/cris-fsr_n20.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/cris-fsr_n20.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/cris-fsr_npp.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/cris-fsr_npp.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/gmi_gpm.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/gmi_gpm.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/hirs3_n17.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/hirs3_n17.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/hirs4_metop-a.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/hirs4_metop-a.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/hirs4_metop-b.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/hirs4_metop-b.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/hirs4_n19.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/hirs4_n19.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/iasi_metop-a.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/iasi_metop-a.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/iasi_metop-b.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/iasi_metop-b.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/imgr_g11.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/imgr_g11.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/imgr_g12.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/imgr_g12.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/imgr_g13.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/imgr_g13.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/imgr_g14.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/imgr_g14.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/imgr_g15.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/imgr_g15.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/mhs_metop-a.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/mhs_metop-a.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/mhs_metop-b.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/mhs_metop-b.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/mhs_n18.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/mhs_n18.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/mhs_n19.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/mhs_n19.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/saphir_meghat.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/saphir_meghat.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/seviri_m08.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/seviri_m08.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/seviri_m09.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/seviri_m09.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/seviri_m10.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/seviri_m10.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/seviri_m11.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/seviri_m11.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD1_g11.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD1_g11.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD1_g12.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD1_g12.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD1_g13.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD1_g13.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD1_g14.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD1_g14.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD1_g15.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD1_g15.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD2_g11.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD2_g11.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD2_g12.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD2_g12.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD2_g13.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD2_g13.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD2_g14.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD2_g14.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD2_g15.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD2_g15.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD3_g11.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD3_g11.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD3_g12.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD3_g12.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD3_g13.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD3_g13.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD3_g14.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD3_g14.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD3_g15.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD3_g15.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD4_g11.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD4_g11.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD4_g12.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD4_g12.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD4_g13.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD4_g13.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD4_g14.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD4_g14.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD4_g15.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/sndrD4_g15.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/ssmi_f15.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/ssmi_f15.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/ssmis_f16.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/ssmis_f16.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/ssmis_f17.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/ssmis_f17.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/ssmis_f18.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/ssmis_f18.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/ssmis_f19.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/ssmis_f19.TauCoeff.bin ./
++ for file in `awk '{if($1!~"!"){print $1}}' ./satinfo | sort | uniq`
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/ssmis_f20.SpcCoeff.bin ./
++ ln -s /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/CRTM_v2.3.0/Big_Endian/ssmis_f20.TauCoeff.bin ./
++ bufrtable=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/prepobs_prep.bufrtable
++ cp /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/comGSIv3.7_EnKFv1.3/fix/prepobs_prep.bufrtable ./prepobs_prep.bufrtable
++ cp /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/option_02/comgsi_satbias_in ./satbias_in
++ cp /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/option_02/comgsi_satbias_pc_in ./satbias_pc
++ echo ' Build the namelist '
++ vs_op=1.0,
++ hzscl_op=0.373,0.746,1.50,
++ '[' GLOBAL = GLOBAL ']'
++ vs_op=0.7,
++ hzscl_op=1.7,0.8,0.5,
++ '[' ARW = NMMB ']'
++ bk_core_arw=.false.
++ bk_core_nmm=.true.
++ bk_core_nmmb=.false.
++ bk_if_netcdf=.true.
++ '[' ARW = ARW ']'
++ bk_core_arw=.true.
++ bk_core_nmm=.false.
++ bk_core_nmmb=.false.
++ bk_if_netcdf=.true.
++ '[' ARW = NMMB ']'
++ '[' No = Yes ']'
++ nummiter=2
++ if_read_obs_save=.false.
++ if_read_obs_skip=.false.
++ . /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/option_02/comgsi_namelist.sh
+++ cat
++ '[' ARW = ARW ']'
+++ ncdump -h wrf_inout
+++ grep 'bottom_top ='
+++ awk '{print $3}'
++ bklevels=60
+++ ncdump -h wrf_inout
+++ grep 'bottom_top_stag ='
+++ awk '{print $3}'
++ bklevels_stag=61
+++ cat anavinfo
+++ grep ' sf '
+++ tail -1
+++ awk '{print $2}'
++ anavlevels=60
+++ cat anavinfo
+++ grep ' prse '
+++ tail -1
+++ awk '{print $2}'
++ anavlevels_stag=61
++ sed -i 's/ 60/ 60/g' anavinfo
++ sed -i 's/ 61/ 61/g' anavinfo
++ echo ' Run GSI with' ARW background
++ case $ARCH in
++ mpirun -genv OMP_NUM_THREADS=1 -np 48 ./gsi.x
+slurmstepd: error: *** JOB 11321889 ON kp274 CANCELLED AT 2022-06-22T17:54:11 ***

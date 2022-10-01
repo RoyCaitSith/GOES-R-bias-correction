@@ -1,0 +1,4 @@
+&iosetup
+ infilename='/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/25_2020082200_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/save_files/2020082200_00/diag_abi_g16_anl.2020082206.d01',
+ outfilename='/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/25_2020082200_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/save_files/2020082200_00/results_abi_g16_anl.2020082206.d01',
+/

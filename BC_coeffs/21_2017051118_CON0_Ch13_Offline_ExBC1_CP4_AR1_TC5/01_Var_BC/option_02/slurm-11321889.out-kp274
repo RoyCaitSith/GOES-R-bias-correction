@@ -1,0 +1,7 @@
+ Create working directory: /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/case_d01
+ Copy GSI executable, background file, and link observation bufr to working directory
+link source obs file /uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction/24_Revision/BC_coeffs/21_2017051118_CON0_Ch13_Offline_ExBC1_CP4_AR1_TC5/01_Var_BC/2017051200/obs/gdas.t00z.goesrabi.tm00.bufr_d
+ Copy fixed files and link CRTM coefficient files to working directory
+ Use global background error covariance
+ Build the namelist 
+ Run GSI with ARW background

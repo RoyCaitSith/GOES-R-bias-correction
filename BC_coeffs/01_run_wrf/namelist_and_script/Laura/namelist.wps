@@ -1,0 +1,48 @@
+&share
+wrf_core = 'ARW',
+max_dom = 1 
+start_date = '2020-08-23_18:00:00', 
+end_date = '2020-08-24_00:00:00', 
+io_form_geogrid = 2,
+interval_seconds = 21600 
+debug_level = 0
+
+opt_output_from_geogrid_path = '/scratch/general/lustre/u1237353/CHPC_2020082318/Geogrid_Data/' 
+/
+
+&geogrid 
+parent_id =     1,    1, 
+parent_grid_ratio =     1,    3, 
+i_parent_start =     1,   55, 
+j_parent_start =     1,   30, 
+e_we =   450,  820, 
+e_sn =   350,  835, 
+
+geog_data_res = 'maxsnowalb_ncep+albedo_ncep+10m','maxsnowalb_ncep+albedo_ncep+10m','maxsnowalb_ncep+albedo_ncep+10m','maxsnowalb_ncep+albedo_ncep+10m'
+
+dx = 12000 
+dy = 12000 
+
+map_proj = 'lambert', 
+ref_lat = 30.0, 
+ref_lon = -80.0, 
+stand_lon = -80.0
+truelat1 = 40.0, 
+truelat2 = 20.0, 
+
+geog_data_path = '/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/TERRESTRIAL/geog/'
+opt_geogrid_tbl_path = '/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/WPS/geogrid/'
+/
+
+&ungrib
+out_format = 'WPS',
+prefix = 'FILE',
+/
+
+&metgrid
+fg_name = 'FILE'
+io_form_metgrid = 2,
+
+opt_metgrid_tbl_path = '/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/WPS/metgrid/'
+opt_output_from_metgrid_path = '/scratch/general/lustre/u1237353/CHPC_2020082318/Metgrid_Data/' 
+/
