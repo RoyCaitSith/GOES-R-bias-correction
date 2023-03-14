@@ -16,6 +16,7 @@ from mpl_toolkits.basemap import Basemap
 
 dir_GOES = '/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction'
 dir_main = dir_GOES + '/24_Revision/track_intensity'
+dir_fig = dir_GOES + '/24_Revision/figures'
 dir_best_track = dir_main + '/best_track'
 file_d01 = dir_main + '/sample/wrfout_d01_2017-06-20_00:00:00'
 file_d02 = dir_main + '/sample/wrfout_d02_2017-06-20_00:00:00'
@@ -119,4 +120,4 @@ clb.ax.tick_params(axis='both', direction='in', labelsize=10.0)
 for idx, lab in enumerate(cat):
     clb.ax.text(-125.0, 0.5*(grade[idx+1]+grade[idx]), lab, ha='center', va='center', color='black', fontsize=10.0)
 
-plt.savefig('./Figure_01_WRF_domain.pdf')
+plt.savefig(dir_fig + '/Figure_01_WRF_domain.pdf')
